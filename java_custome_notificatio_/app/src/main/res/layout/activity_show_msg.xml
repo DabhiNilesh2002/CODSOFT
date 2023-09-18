@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dcf8c6"
+    tools:context=".ShowMsgActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat Screen"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:background="#005C4B"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="Hiii...."
+        android:textSize="15dp"
+        android:gravity="left"
+        android:background="#202C33"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Hello...."
+        android:textSize="15dp"
+        android:gravity="right"
+        android:background="#005C4B"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="330dp"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="How Are You...?"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:background="#202C33"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="I am fine...!"
+        android:textSize="15dp"
+        android:gravity="right"
+        android:background="#005C4B"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="310dp"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:textStyle="bold"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="What's going on?"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:background="#202C33"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="That's Nothing..."
+        android:textSize="15dp"
+        android:gravity="right"
+        android:background="#005C4B"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="280dp"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="What about you?"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:background="#202C33"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Same as ever..."
+        android:textSize="15dp"
+        android:gravity="right"
+        android:background="#005C4B"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="280dp"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Message"
+        android:drawableLeft="@drawable/baseline_emoji_emotions_24"
+        android:imeOptions="actionDone"
+        android:textColor="@color/black"
+        android:textColorHint="#716F6F"
+        android:background="@drawable/custom_edit_text"
+        android:backgroundTint="#2A3942"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="430dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>
